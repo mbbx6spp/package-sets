@@ -74,7 +74,6 @@
     ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-  {- TODO: make repo compatible again; too many changes since last attempt -}
   , version = "main"
   }
 , argonaut-core =
@@ -95,8 +94,7 @@
   , version = "main"
   }
 , argonaut-generic =
-  { dependencies =
-    [ "argonaut-codecs", "argonaut-core", "prelude", "record" ]
+  { dependencies = [ "argonaut-codecs", "argonaut-core", "prelude", "record" ]
   , repo =
       "https://github.com/purescript-contrib/purescript-argonaut-generic.git"
   , version = "main"
@@ -111,7 +109,6 @@
   { dependencies = [] : List Text
   , repo =
       "https://github.com/purescript-contrib/purescript-arraybuffer-types.git"
-  {- TODO: merge the ps-0.14 branch into master branch -}
   , version = "main"
   }
 , avar =
@@ -121,8 +118,10 @@
   , version = "main"
   }
 , concurrent-queues =
-  { dependencies = [ "aff", "avar", "console", "effect", "psci-support", "test-unit" ]
-  , repo = "https://github.com/purescript-contrib/purescript-concurrent-queues.git"
+  { dependencies =
+    [ "aff", "avar", "console", "effect", "psci-support", "test-unit" ]
+  , repo =
+      "https://github.com/purescript-contrib/purescript-concurrent-queues.git"
   , version = "main"
   }
 , coroutines =
@@ -342,7 +341,6 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript-contrib/purescript-react.git"
-  {- TODO: merge kl0tli's roles-declarations branch into master -}
   , version = "main"
   }
 , react-dom =
@@ -387,7 +385,8 @@
   , version = "main"
   }
 , these =
-  { dependencies = [ "arrays", "gen", "lists", "quickcheck", "quickcheck-laws", "tuples" ]
+  { dependencies =
+    [ "arrays", "gen", "lists", "quickcheck", "quickcheck-laws", "tuples" ]
   , repo = "https://github.com/purescript-contrib/purescript-these.git"
   , version = "main"
   }

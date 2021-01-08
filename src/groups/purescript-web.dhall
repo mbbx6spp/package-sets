@@ -15,29 +15,17 @@
   , version = "master"
   }
 , web-dom-parser =
-  { dependencies =
-    [ "prelude"
-    , "effect"
-    , "web-dom"
-    , "partial"
-    ]
+  { dependencies = [ "prelude", "effect", "web-dom", "partial" ]
   , repo = "https://github.com/purescript-web/purescript-web-dom-parser.git"
   , version = "master"
   }
 , web-dom-xpath =
-  { dependencies =
-    [ "web-dom"
-    ]
+  { dependencies = [ "web-dom" ]
   , repo = "https://github.com/purescript-web/purescript-web-dom-xpath.git"
   , version = "master"
   }
 , web-encoding =
-  { dependencies =
-    [ "prelude"
-    , "effect"
-    , "arraybuffer-types"
-    , "newtype"
-    ]
+  { dependencies = [ "prelude", "effect", "arraybuffer-types", "newtype" ]
   , repo = "https://github.com/purescript-web/purescript-web-encoding.git"
   , version = "master"
   }
@@ -72,13 +60,7 @@
   , version = "master"
   }
 , web-promise =
-  { dependencies =
-    [ "prelude"
-    , "effect"
-    , "maybe"
-    , "functions"
-    , "exceptions"
-    ]
+  { dependencies = [ "prelude", "effect", "maybe", "functions", "exceptions" ]
   , repo = "https://github.com/purescript-web/purescript-web-promise.git"
   , version = "master"
   }

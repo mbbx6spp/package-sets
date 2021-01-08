@@ -16,7 +16,7 @@
   , repo = "https://github.com/purescript/purescript-arrays.git"
   , version = "master"
   }
-, `assert` =
+, assert =
   { dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-assert.git"
   , version = "master"
@@ -323,11 +323,7 @@
   , version = "master"
   }
 , numbers =
-  { dependencies =
-    [ "math"
-    , "maybe"
-    , "functions"
-    ]
+  { dependencies = [ "math", "maybe", "functions" ]
   , repo = "https://github.com/purescript/purescript-numbers.git"
   , version = "master"
   }

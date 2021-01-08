@@ -53,8 +53,6 @@
   , repo = "https://github.com/Bucketchain/purescript-bucketchain-secure.git"
   , version = "v0.1.0"
   }
-
-{- TODO: does not compile -}
 , bucketchain-simple-api =
   { dependencies = [ "bucketchain", "media-types", "simple-json", "freet" ]
   , repo =
