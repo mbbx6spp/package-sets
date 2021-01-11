@@ -50,7 +50,7 @@
     , "record"
     ]
   , repo = "https://github.com/mbbx6spp/purescript-foreign-generic.git"
-  , version = "master"
+  , version = "prepare-0.14"
   }
 , leibniz =
   { dependencies = [ "prelude", "unsafe-coerce" ]
